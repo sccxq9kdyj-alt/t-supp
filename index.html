@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Titan Supply</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background: linear-gradient(135deg, #000000, #1a0000, #000000);
+      min-height: 100vh;
+      color: #ffffff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .container {
+      max-width: 1100px;
+      width: 100%;
+      padding: 40px;
+      text-align: center;
+    }
+
+    .logo {
+      font-size: 48px;
+      font-weight: 700;
+      letter-spacing: 2px;
+      margin-bottom: 10px;
+      color: #ff2e2e;
+    }
+
+    .subtitle {
+      font-size: 18px;
+      margin-bottom: 50px;
+      color: #9affc6;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 25px;
+    }
+
+    a.card {
+      text-decoration: none;
+      color: inherit;
+      background: rgba(0, 0, 0, 0.75);
+      border-radius: 16px;
+      padding: 30px 20px;
+      transition: all 0.3s ease;
+      border: 1px solid rgba(255, 46, 46, 0.45);
+      backdrop-filter: blur(14px);
+      display: block;
+    }
+
+    a.card:hover {
+      transform: translateY(-8px) scale(1.04);
+      background: rgba(60, 0, 0, 0.75);
+      border-color: rgba(154, 255, 198, 0.9);
+    }
+
+    .card h2 {
+      font-size: 22px;
+      margin-bottom: 10px;
+    }
+
+    .card p {
+      font-size: 14px;
+      opacity: 0.85;
+      line-height: 1.5;
+    }
+
+    footer {
+      margin-top: 60px;
+      font-size: 13px;
+      opacity: 0.7;
+    }
+
+    @media (max-width: 600px) {
+      .logo {
+        font-size: 36px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="logo">Titan Supply</div>
+    <div class="subtitle">Bulk • Replicas • Perfumes • Electronics</div>
+
+    <div class="grid">
+      <a href="service.html" class="card">
+        <h2>Titan Supply Service</h2>
+        <p>About Titan & our service, how we supply resellers.</p>
+      </a>
+
+      <a href="logistics.html" class="card">
+        <h2>Logistics</h2>
+        <p>Reliable international shipping worldwide.</p>
+      </a>
+
+      <a href="perfumes.html" class="card">
+        <h2>Perfumes</h2>
+        <p>Premium 1:1 branded fragrances available for small & bulk orders.</p>
+      </a>
+
+      <a href="electronics.html" class="card">
+        <h2>Electronics</h2>
+        <p>High-demand 1:1 electronics available for small & bulk orders.</p>
+      </a>
+
+<a href="https://discord.gg/R5ydWaQ7dU" class="card">
+        <h2>Discord</h2>
+        <p>Join our new community!</p>
+      </a>
+
+    </div>
+
+    <footer>
+      © 2026 Titan Supply. All rights reserved.
+    </footer>
+  </div>
+</body>
+</html>

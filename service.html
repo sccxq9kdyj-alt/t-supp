@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Titan Supply | Services</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background: linear-gradient(135deg, #000000, #1a0000, #000000);
+      min-height: 100vh;
+      color: #ffffff;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: auto;
+      padding: 40px 20px;
+    }
+
+    .back {
+      display: inline-block;
+      margin-bottom: 30px;
+      color: #9affc6;
+      text-decoration: none;
+      font-size: 14px;
+    }
+
+    .back:hover {
+      text-decoration: underline;
+    }
+
+    h1 {
+      font-size: 42px;
+      color: #ff2e2e;
+      margin-bottom: 15px;
+    }
+
+    .subtitle {
+      font-size: 16px;
+      color: #9affc6;
+      margin-bottom: 50px;
+      max-width: 700px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 25px;
+    }
+
+    .box {
+      background: rgba(0, 0, 0, 0.75);
+      border-radius: 16px;
+      padding: 30px;
+      border: 1px solid rgba(255, 46, 46, 0.45);
+      backdrop-filter: blur(14px);
+      transition: 0.3s ease;
+    }
+
+    .box:hover {
+      transform: translateY(-6px);
+      border-color: rgba(154, 255, 198, 0.9);
+      background: rgba(60, 0, 0, 0.75);
+    }
+
+    .box h2 {
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+
+    .box p {
+      font-size: 14px;
+      opacity: 0.85;
+      line-height: 1.6;
+    }
+
+    /* IMAGE BOXES */
+    .image-grid {
+      margin-top: 60px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 25px;
+    }
+
+    .image-box {
+      background: rgba(0, 0, 0, 0.75);
+      border-radius: 16px;
+      overflow: hidden;
+      border: 1px solid rgba(255, 46, 46, 0.45);
+      backdrop-filter: blur(14px);
+      transition: 0.3s ease;
+    }
+
+    .image-box:hover {
+      transform: translateY(-6px);
+      border-color: rgba(154, 255, 198, 0.9);
+    }
+
+    .image-box img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+
+    .cta {
+      margin-top: 60px;
+      padding: 30px;
+      background: rgba(0,0,0,0.8);
+      border-radius: 16px;
+      border: 1px solid rgba(255,46,46,0.5);
+      text-align: center;
+    }
+
+    .cta h3 {
+      font-size: 24px;
+      margin-bottom: 10px;
+      color: #ff2e2e;
+    }
+
+    .cta p {
+      font-size: 14px;
+      margin-bottom: 20px;
+      color: #9affc6;
+    }
+
+    .cta a {
+      display: inline-block;
+      padding: 12px 26px;
+      background: #ff2e2e;
+      color: #000;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: 0.3s ease;
+    }
+
+    .cta a:hover {
+      background: #9affc6;
+      color: #000;
+    }
+
+    footer {
+      margin-top: 60px;
+      text-align: center;
+      font-size: 13px;
+      opacity: 0.6;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+
+    <a href="index.html" class="back">← Back to Home</a>
+
+    <h1>Titan Supply Services</h1>
+    <p class="subtitle">
+      Bulk & small supply for resellers, including perfumes, electronics & more.</p>
+
+    <div class="grid">
+      <div class="box">
+        <h2>Bulk Supply</h2>
+        <p>High-demand products including perfumes and electronics for bulk orders.</p>
+      </div>
+
+      <div class="box">
+        <h2>Reseller Support</h2>
+        <p>Competitive pricing, fast processing, and long-term supplier reliability.</p>
+      </div>
+
+      <div class="box">
+        <h2>Private Orders</h2>
+        <p>Discreet handling for private or custom orders with secure packaging.</p>
+      </div>
+
+      <div class="box">
+        <h2>Global Distribution</h2>
+        <p>International shipping with trusted logistics partners worldwide.</p>
+      </div>
+    </div>
+
+   <!-- IMAGE BOXES -->
+<div class="image-grid">
+  <div class="image-box">
+    <img src="perfume-factory-2.jpg" alt="Perfume Factory">
+  </div>
+
+  <div class="image-box">
+    <img src="royal-mail-plane.jpg" alt="Royal Mail Plane">
+  </div>
+</div>
+
+
+
+    <div class="cta">
+      <h3>Ask Titan Supply</h3>
+      <p>Contact us today for queries.</p>
+      <a href="mailto:ayztrades@gmail.com">Get In Touch Via Email</a>
+    </div>
+
+    <footer>
+      © 2026 Titan Supply. All rights reserved.
+    </footer>
+
+  </div>
+</body>
+</html>
+
